@@ -1,0 +1,9 @@
+# render.yaml
+
+services:
+  - type: web
+    name: your-app-name
+    env:
+      - key: PORT
+        value: 8080
+    startCommand: streamlit run app.py
